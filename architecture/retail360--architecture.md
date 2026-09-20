@@ -55,3 +55,26 @@ Direct Lake semantic model with DAX measures.
 Analytics
 
 Power BI executive dashboard with interactive filtering and store drill-through.
+
+Azure Blob Storage
+  └── raw/
+      ├── customers.csv
+      ├── products.csv
+      ├── stores.csv
+      └── sales.csv
+            ↓
+    Fabric OneLake Shortcut
+            ↓
+    Retail360_Bronze
+            ↓
+    Silver Transformation
+            ↓
+    Retail360_Silver
+            ↓
+    Gold Transformation
+            ↓
+    Retail360_Gold
+            ↓
+    Direct Lake Semantic Model
+            ↓
+    Power BI Executive Dashboard
