@@ -28,7 +28,7 @@ The project demonstrates how raw retail data can be ingested, transformed throug
                        │
                        ▼
               ┌─────────────────┐
-              │  Silver Layer  │
+              │  Silver Layer   │
               │ Data Cleaning   │
               │ Transformation  │
               │ Validation      │
@@ -36,22 +36,22 @@ The project demonstrates how raw retail data can be ingested, transformed throug
                        │
                        ▼
               ┌─────────────────┐
-              │   Gold Layer   │
-              │ Business-ready │
-              │     Tables     │
+              │   Gold Layer    │
+              │ Business-ready  │
+              │     Tables      │
               └────────┬────────┘
                        │
                        ▼
              ┌──────────────────┐
-             │ Semantic Model  │
-             │    Direct Lake  │
+             │ Semantic Model   │
+             │    Direct Lake   │
              └────────┬─────────┘
                       │
                       ▼
              ┌──────────────────┐
-             │    Power BI     │
-             │ Executive       │
-             │ Dashboard       │
+             │    Power BI      │
+             │ Executive        │
+             │ Dashboard        │
              └──────────────────┘
 
 🛠️ Technology Stack
